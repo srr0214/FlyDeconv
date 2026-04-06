@@ -1,0 +1,29 @@
+Package: FlyDeconv
+Title: Cell-Type Deconvolution for Multiple Drosophila Tissues
+Version: 0.1.0
+Authors@R: 
+    person(given = "Jing",
+           family = "Sun",
+           role = c("aut", "cre"),
+           email = "your_email@example.com")
+Description: FlyDeconv is an R package for cell-type deconvolution analysis
+    across multiple Drosophila tissues. It provides a unified interface for
+    running multiple deconvolution methods, together with built-in reference
+    data resources for Drosophila bulk and single-cell transcriptomic analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 4.2.0)
+Imports:
+    utils,
+    stats
+Suggests:
+    devtools,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr

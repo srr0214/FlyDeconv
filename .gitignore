@@ -1,0 +1,28 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+# R package build
+*.tar.gz
+*.Rcheck
+
+# results
+results/
+tools/
+
+# Python cache (VERY IMPORTANT)
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS hidden files
+._*
+
+# logs
+*.log
+*.tmp
+
+# large data file
+inst/extdata/all_tissues_scRNA_big.rda
